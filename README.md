@@ -6,61 +6,41 @@ Protein is fixed at **160 g/day**. Carbs are **75 g on rest days** and **+120 g 
 
 ## Daily macros by weight
 
-Stacked bars, kcal/day. Colors: blue = protein, yellow = carbs, orange = fat (top of bar = total).
+### Rest day
 
-```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#eb6834, #eda100, #2a78d6"}}}}%%
-xychart-beta
-  title "Rest day"
-  x-axis ["85 kg", "80 kg", "75 kg", "70 kg"]
-  y-axis "kcal" 0 --> 3200
-  bar [1750, 1696, 1624, 1552]
-  bar [940, 940, 940, 940]
-  bar [640, 640, 640, 640]
-```
+| Weight | Protein (g) | Carbs (g) | Fat (g) | kcal |
+|---|---|---|---|---|
+| 85 kg | 160 | 75 | 90 | 1750 |
+| 80 kg | 160 | 75 | 84 | 1696 |
+| 75 kg | 160 | 75 | 76 | 1624 |
+| 70 kg | 160 | 75 | 68 | 1552 |
 
-```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#eb6834, #eda100, #2a78d6"}}}}%%
-xychart-beta
-  title "1 h ride"
-  x-axis ["85 kg", "80 kg", "75 kg", "70 kg"]
-  y-axis "kcal" 0 --> 3200
-  bar [2230, 2176, 2104, 2032]
-  bar [1420, 1420, 1420, 1420]
-  bar [640, 640, 640, 640]
-```
+### 1 h ride
 
-```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#eb6834, #eda100, #2a78d6"}}}}%%
-xychart-beta
-  title "2 h ride"
-  x-axis ["85 kg", "80 kg", "75 kg", "70 kg"]
-  y-axis "kcal" 0 --> 3200
-  bar [2710, 2656, 2584, 2512]
-  bar [1900, 1900, 1900, 1900]
-  bar [640, 640, 640, 640]
-```
+| Weight | Protein (g) | Carbs (g) | Fat (g) | kcal |
+|---|---|---|---|---|
+| 85 kg | 160 | 195 | 90 | 2230 |
+| 80 kg | 160 | 195 | 84 | 2176 |
+| 75 kg | 160 | 195 | 76 | 2104 |
+| 70 kg | 160 | 195 | 68 | 2032 |
 
-```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#eb6834, #eda100, #2a78d6"}}}}%%
-xychart-beta
-  title "3 h ride"
-  x-axis ["85 kg", "80 kg", "75 kg", "70 kg"]
-  y-axis "kcal" 0 --> 3200
-  bar [3190, 3136, 3064, 2992]
-  bar [2380, 2380, 2380, 2380]
-  bar [640, 640, 640, 640]
-```
+### 2 h ride
 
-| Weight | Fat (g) | Rest | 1 h | 2 h | 3 h |
-|---|---|---|---|---|---|
-| Carbs (g) | | 75 | 195 | 315 | 435 |
-| 85 kg | 90 | 1750 kcal | 2230 kcal | 2710 kcal | 3190 kcal |
-| 80 kg | 84 | 1696 kcal | 2176 kcal | 2656 kcal | 3136 kcal |
-| 75 kg | 76 | 1624 kcal | 2104 kcal | 2584 kcal | 3064 kcal |
-| 70 kg | 68 | 1552 kcal | 2032 kcal | 2512 kcal | 2992 kcal |
+| Weight | Protein (g) | Carbs (g) | Fat (g) | kcal |
+|---|---|---|---|---|
+| 85 kg | 160 | 315 | 90 | 2710 |
+| 80 kg | 160 | 315 | 84 | 2656 |
+| 75 kg | 160 | 315 | 76 | 2584 |
+| 70 kg | 160 | 315 | 68 | 2512 |
 
-Protein is 160 g on every day.
+### 3 h ride
+
+| Weight | Protein (g) | Carbs (g) | Fat (g) | kcal |
+|---|---|---|---|---|
+| 85 kg | 160 | 435 | 90 | 3190 |
+| 80 kg | 160 | 435 | 84 | 3136 |
+| 75 kg | 160 | 435 | 76 | 3064 |
+| 70 kg | 160 | 435 | 68 | 2992 |
 
 ## Protein sources
 
