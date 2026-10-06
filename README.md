@@ -6,41 +6,14 @@ Protein is fixed at **160 g/day**. Carbs are **75 g on rest days** and **+120 g 
 
 ## Daily macros by weight
 
-### Rest day
+Each day-type cell shows carbs (g) and total kcal.
 
-| Weight | Protein (g) | Carbs (g) | Fat (g) | kcal |
-|---|---|---|---|---|
-| 85 kg | 160 | 75 | 90 | 1750 |
-| 80 kg | 160 | 75 | 84 | 1696 |
-| 75 kg | 160 | 75 | 76 | 1624 |
-| 70 kg | 160 | 75 | 68 | 1552 |
-
-### 1 h ride
-
-| Weight | Protein (g) | Carbs (g) | Fat (g) | kcal |
-|---|---|---|---|---|
-| 85 kg | 160 | 195 | 90 | 2230 |
-| 80 kg | 160 | 195 | 84 | 2176 |
-| 75 kg | 160 | 195 | 76 | 2104 |
-| 70 kg | 160 | 195 | 68 | 2032 |
-
-### 2 h ride
-
-| Weight | Protein (g) | Carbs (g) | Fat (g) | kcal |
-|---|---|---|---|---|
-| 85 kg | 160 | 315 | 90 | 2710 |
-| 80 kg | 160 | 315 | 84 | 2656 |
-| 75 kg | 160 | 315 | 76 | 2584 |
-| 70 kg | 160 | 315 | 68 | 2512 |
-
-### 3 h ride
-
-| Weight | Protein (g) | Carbs (g) | Fat (g) | kcal |
-|---|---|---|---|---|
-| 85 kg | 160 | 435 | 90 | 3190 |
-| 80 kg | 160 | 435 | 84 | 3136 |
-| 75 kg | 160 | 435 | 76 | 3064 |
-| 70 kg | 160 | 435 | 68 | 2992 |
+| Weight | Protein (g) | Fat (g) | Rest | 1 h ride | 2 h ride | 3 h ride |
+|---|---|---|---|---|---|---|
+| 85 kg | 160 | 90 | 75 g / 1750 kcal | 195 g / 2230 kcal | 315 g / 2710 kcal | 435 g / 3190 kcal |
+| 80 kg | 160 | 84 | 75 g / 1696 kcal | 195 g / 2176 kcal | 315 g / 2656 kcal | 435 g / 3136 kcal |
+| 75 kg | 160 | 76 | 75 g / 1624 kcal | 195 g / 2104 kcal | 315 g / 2584 kcal | 435 g / 3064 kcal |
+| 70 kg | 160 | 68 | 75 g / 1552 kcal | 195 g / 2032 kcal | 315 g / 2512 kcal | 435 g / 2992 kcal |
 
 ## Protein sources
 
