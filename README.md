@@ -6,99 +6,61 @@ Protein is fixed at **160 g/day**. Carbs are **75 g on rest days** and **+120 g 
 
 ## Daily macros by weight
 
-<div style="max-width:720px;font-family:system-ui,sans-serif;font-size:14px;line-height:1.4;">
-  <div style="display:flex;flex-wrap:wrap;gap:14px;margin:0 0 12px;">
-    <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#2a78d6;margin-right:5px;"></span>Protein</span>
-    <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#eda100;margin-right:5px;"></span>Carbs</span>
-    <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#eb6834;margin-right:5px;"></span>Fat</span>
-  </div>
+Stacked bars, kcal/day. Colors: blue = protein, yellow = carbs, orange = fat (top of bar = total).
 
-  <p style="margin:12px 0 6px;font-weight:600;">Rest day</p>
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#eb6834, #eda100, #2a78d6"}}}}%%
+xychart-beta
+  title "Rest day"
+  x-axis ["85 kg", "80 kg", "75 kg", "70 kg"]
+  y-axis "kcal" 0 --> 3200
+  bar [1750, 1696, 1624, 1552]
+  bar [940, 940, 940, 940]
+  bar [640, 640, 640, 640]
+```
 
-  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
-    <span style="flex:0 0 48px;">85 kg</span>
-    <div style="flex:1;display:flex;height:22px;border-radius:4px;overflow:hidden;">
-      <div style="width:22.9%;background:#2a78d6;" title="Protein 160 g"></div>
-      <div style="width:10.7%;background:#eda100;" title="Carbs 75 g"></div>
-      <div style="width:28.9%;background:#eb6834;" title="Fat 90 g"></div>
-    </div>
-    <span style="flex:0 0 140px;font-size:12px;">1750 kcal · 160/75/90</span>
-  </div>
-  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
-    <span style="flex:0 0 48px;">80 kg</span>
-    <div style="flex:1;display:flex;height:22px;border-radius:4px;overflow:hidden;">
-      <div style="width:22.9%;background:#2a78d6;"></div>
-      <div style="width:10.7%;background:#eda100;"></div>
-      <div style="width:27.0%;background:#eb6834;"></div>
-    </div>
-    <span style="flex:0 0 140px;font-size:12px;">1700 kcal · 160/75/84</span>
-  </div>
-  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
-    <span style="flex:0 0 48px;">75 kg</span>
-    <div style="flex:1;display:flex;height:22px;border-radius:4px;overflow:hidden;">
-      <div style="width:22.9%;background:#2a78d6;"></div>
-      <div style="width:10.7%;background:#eda100;"></div>
-      <div style="width:24.4%;background:#eb6834;"></div>
-    </div>
-    <span style="flex:0 0 140px;font-size:12px;">1625 kcal · 160/75/76</span>
-  </div>
-  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
-    <span style="flex:0 0 48px;">70 kg</span>
-    <div style="flex:1;display:flex;height:22px;border-radius:4px;overflow:hidden;">
-      <div style="width:22.9%;background:#2a78d6;"></div>
-      <div style="width:10.7%;background:#eda100;"></div>
-      <div style="width:21.9%;background:#eb6834;"></div>
-    </div>
-    <span style="flex:0 0 140px;font-size:12px;">1550 kcal · 160/75/68</span>
-  </div>
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#eb6834, #eda100, #2a78d6"}}}}%%
+xychart-beta
+  title "1 h ride"
+  x-axis ["85 kg", "80 kg", "75 kg", "70 kg"]
+  y-axis "kcal" 0 --> 3200
+  bar [2230, 2176, 2104, 2032]
+  bar [1420, 1420, 1420, 1420]
+  bar [640, 640, 640, 640]
+```
 
-  <p style="margin:18px 0 6px;font-weight:600;">2 h ride day</p>
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#eb6834, #eda100, #2a78d6"}}}}%%
+xychart-beta
+  title "2 h ride"
+  x-axis ["85 kg", "80 kg", "75 kg", "70 kg"]
+  y-axis "kcal" 0 --> 3200
+  bar [2710, 2656, 2584, 2512]
+  bar [1900, 1900, 1900, 1900]
+  bar [640, 640, 640, 640]
+```
 
-  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
-    <span style="flex:0 0 48px;">85 kg</span>
-    <div style="flex:1;display:flex;height:22px;border-radius:4px;overflow:hidden;">
-      <div style="width:22.9%;background:#2a78d6;"></div>
-      <div style="width:45.0%;background:#eda100;"></div>
-      <div style="width:28.9%;background:#eb6834;"></div>
-    </div>
-    <span style="flex:0 0 140px;font-size:12px;">2710 kcal · 160/315/90</span>
-  </div>
-  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
-    <span style="flex:0 0 48px;">80 kg</span>
-    <div style="flex:1;display:flex;height:22px;border-radius:4px;overflow:hidden;">
-      <div style="width:22.9%;background:#2a78d6;"></div>
-      <div style="width:45.0%;background:#eda100;"></div>
-      <div style="width:27.0%;background:#eb6834;"></div>
-    </div>
-    <span style="flex:0 0 140px;font-size:12px;">2655 kcal · 160/315/84</span>
-  </div>
-  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
-    <span style="flex:0 0 48px;">75 kg</span>
-    <div style="flex:1;display:flex;height:22px;border-radius:4px;overflow:hidden;">
-      <div style="width:22.9%;background:#2a78d6;"></div>
-      <div style="width:45.0%;background:#eda100;"></div>
-      <div style="width:24.4%;background:#eb6834;"></div>
-    </div>
-    <span style="flex:0 0 140px;font-size:12px;">2585 kcal · 160/315/76</span>
-  </div>
-  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
-    <span style="flex:0 0 48px;">70 kg</span>
-    <div style="flex:1;display:flex;height:22px;border-radius:4px;overflow:hidden;">
-      <div style="width:22.9%;background:#2a78d6;"></div>
-      <div style="width:45.0%;background:#eda100;"></div>
-      <div style="width:21.9%;background:#eb6834;"></div>
-    </div>
-    <span style="flex:0 0 140px;font-size:12px;">2510 kcal · 160/315/68</span>
-  </div>
-  <p style="font-size:12px;opacity:.7;margin-top:8px;">Grams shown as protein/carbs/fat. Bars are scaled to 2800 kcal.</p>
-</div>
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#eb6834, #eda100, #2a78d6"}}}}%%
+xychart-beta
+  title "3 h ride"
+  x-axis ["85 kg", "80 kg", "75 kg", "70 kg"]
+  y-axis "kcal" 0 --> 3200
+  bar [3190, 3136, 3064, 2992]
+  bar [2380, 2380, 2380, 2380]
+  bar [640, 640, 640, 640]
+```
 
-| Weight | Rest day kcal | P / C / F (g) | + per ride hour |
-|---|---|---|---|
-| 85 kg | 1750 | 160 / 75 / 90 | +120 g carbs (~480 kcal) |
-| 80 kg | 1700 | 160 / 75 / 84 | +120 g carbs |
-| 75 kg | 1625 | 160 / 75 / 76 | +120 g carbs |
-| 70 kg | 1550 | 160 / 75 / 68 | +120 g carbs |
+| Weight | Fat (g) | Rest | 1 h | 2 h | 3 h |
+|---|---|---|---|---|---|
+| Carbs (g) | | 75 | 195 | 315 | 435 |
+| 85 kg | 90 | 1750 kcal | 2230 kcal | 2710 kcal | 3190 kcal |
+| 80 kg | 84 | 1696 kcal | 2176 kcal | 2656 kcal | 3136 kcal |
+| 75 kg | 76 | 1624 kcal | 2104 kcal | 2584 kcal | 3064 kcal |
+| 70 kg | 68 | 1552 kcal | 2032 kcal | 2512 kcal | 2992 kcal |
+
+Protein is 160 g on every day.
 
 ## Protein sources
 
